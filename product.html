@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queens land</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Your existing CSS styles */
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Queens land</h1>
+    <p>High-quality products at affordable prices!</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact</a>
+    <a href="#">Cart</a>
+</nav>
+
+<div class="container">
+    <div class="products">
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>Description of Product 1</p>
+            <p class="price">$19.99</p>
+            <button onclick="addToCart('Product 1')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Product 2">
+            <h3>Product 2</h3>
+            <p>Description of Product 2</p>
+            <p class="price">$29.99</p>
+            <button onclick="addToCart('Product 2')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="product3.jpg" alt="Product 3">
+            <h3>Product 3</h3>
+            <p>Description of Product 3</p>
+            <p class="price">$39.99</p>
+            <button onclick="addToCart('Product 3')">Add to Cart</button>
+        </div>
+        <!-- Add more products as needed -->
+    </div>
+
+    <div class="sidebar">
+        <h3>Special Offers</h3>
+        <p>Check out our limited-time discounts!</p>
+        <ul>
+            <li><a href="#">Discount 1</a></li>
+            <li><a href="#">Discount 2</a></li>
+            <li><a href="#">Discount 3</a></li>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Your Shop Name. All rights reserved.</p>
+    <p>Follow us on social media: Facebook | Instagram | Twitter</p>
+</footer>
+
+<!-- Add JavaScript for the "Add to Cart" functionality -->
+<script>
+    function addToCart(productName) {
+        alert(productName + " has been added to your cart.");
+    }
+</script>
+
+</body>
+</html>
+
+        
+       

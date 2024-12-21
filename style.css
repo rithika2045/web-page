@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #444;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 15px;
+}
+nav a:hover {
+    background-color: #555;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.products {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.product {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.product img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.product h3 {
+    color: #333;
+}
+.product p {
+    color: #777;
+    font-size: 14px;
+}
+.product .price {
+    color: #ff6347;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.product button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.product button:hover {
+    background-color: #555;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.sidebar h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li {
+    margin: 10px 0;
+}
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Contact Form */
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.contact-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #555;
+}
